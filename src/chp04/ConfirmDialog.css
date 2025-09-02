@@ -1,0 +1,10 @@
+div{
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+
+.div-bg-skyblue{
+    background-color: skyblue;
+    border: 5px groove #00c3ff;
+}
