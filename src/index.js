@@ -11,6 +11,8 @@ import './chp04/ConfirmDialog.css'
 import ConfirmDialogs from "./chp04/ConfirmDialogs";
 import Clock from "./chp04/Clock";
 import "./chp04/Clock.css"
+import Comment from "./chp05/exam01/Comment";
+import "./chp05/exam01/Comment.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <ConfirmDialogs />
+             <Comment />
          </React.StrictMode>
      );
 
