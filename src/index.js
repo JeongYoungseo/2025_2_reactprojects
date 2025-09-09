@@ -13,6 +13,8 @@ import Clock from "./chp04/Clock";
 import "./chp04/Clock.css"
 import Comment from "./chp05/exam01/Comment";
 import "./chp05/exam01/Comment.css"
+import BookList from "./chp05/exam02/BookList";
+import "./chp05/exam02/BookList.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,7 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <Comment />
+             <BookList />
          </React.StrictMode>
      );
 
