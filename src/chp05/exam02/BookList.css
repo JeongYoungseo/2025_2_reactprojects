@@ -5,3 +5,16 @@
     padding: 16px;
     justify-content: center;
 }
+/*800px 이하 화면에서 2열로 변경 */
+@media (max-width: 800px) {
+    .bookListWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 580px 이하 화면에서 1열로 변경 */
+@media (max-width: 580px) {
+    .bookListWrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -14,7 +14,7 @@ const books =[
     },
     {
         title: "clean code",
-        author: "",
+        author: "Robert C. Martin",
         coverImage: "https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9788966260959.jpg"
     },
 ];
