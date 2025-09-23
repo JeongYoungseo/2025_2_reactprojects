@@ -17,6 +17,9 @@ import BookList from "./chp05/exam02/BookList";
 import "./chp05/exam02/BookList.css"
 import CommentList from "./chp05/CommentList";
 import "./chp05/Comment.css";
+import NotificationList from "./chp06/NotificationList";
+import "./chp06/Notification.css"
+import Counter from "./chp07/exam01/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -30,7 +33,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <CommentList />
+             <Counter />
          </React.StrictMode>
      );
 
