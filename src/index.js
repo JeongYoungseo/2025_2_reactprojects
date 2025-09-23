@@ -20,6 +20,7 @@ import "./chp05/Comment.css";
 import NotificationList from "./chp06/NotificationList";
 import "./chp06/Notification.css"
 import Counter from "./chp07/exam01/Counter";
+import Accomodate from "./chp07/Accomodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -33,7 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <Counter />
+             <Accomodate />
          </React.StrictMode>
      );
 
