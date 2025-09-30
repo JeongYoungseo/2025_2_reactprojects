@@ -21,6 +21,13 @@ import NotificationList from "./chp06/NotificationList";
 import "./chp06/Notification.css"
 import Counter from "./chp07/exam01/Counter";
 import Accomodate from "./chp07/Accomodate";
+import Toggle from "./chp08/Toggle";
+import Toggle_2 from "./chp08/Toggle_2";
+import Toggle_3_NewSyntax from "./chp08/Toggle_3_NewSyntax";
+import ToggleFunction from "./chp08/ToggleFunction";
+import MyButton_Argument from "./chp08/MyButton_Argument";
+import MyButton from "./chp08/MyButton";
+import ConfirmButtonFunction from "./chp08/ConfirmButtonFunction";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -34,7 +41,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <Accomodate />
+             <ConfirmButtonFunction />
          </React.StrictMode>
      );
 
