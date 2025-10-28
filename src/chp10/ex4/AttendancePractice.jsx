@@ -31,7 +31,6 @@ function AttendancePractice() {
                             </div>
                         </div>
                         )
-
                     )
                 }
             </div>
