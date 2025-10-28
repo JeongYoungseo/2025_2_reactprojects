@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import AppNumberList from "./chp10/ex1/AppNumberList";
 import StudentAttendance from "./chp10/ex2/StudentAttendance";
 import AttendanceCard from "./chp10/ex3/AttendanceCard";
+import AttendancePractice from "./chp10/ex4/AttendancePractice";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <AttendanceCard />
+             <AttendancePractice />
          </React.StrictMode>
      );
 
