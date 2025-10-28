@@ -1,3 +1,15 @@
+// import React from "react";
+//
+// function Button(props) {
+//     return(
+//         <button className={`bg-${props.color}`}>
+//             <b>{props.children}</b>
+//         </button>
+//     )
+// }
+//
+// export default Button;
+
 import React from "react";
 
 function Button(props) {
@@ -5,7 +17,7 @@ function Button(props) {
         <button className={`bg-${props.color}`}>
             <b>{props.children}</b>
         </button>
-    )
-}
 
+    );
+}
 export default Button;

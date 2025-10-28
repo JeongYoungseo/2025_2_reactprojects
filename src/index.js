@@ -3,31 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Library from "./chp03/Library";
-import './chp03/Book.css'
-import ConfirmDialog from "./chp04/ConfirmDialog";
-import './chp04/Button.css'
-import './chp04/ConfirmDialog.css'
-import ConfirmDialogs from "./chp04/ConfirmDialogs";
-import Clock from "./chp04/Clock";
-import "./chp04/Clock.css"
-import Comment from "./chp05/exam01/Comment";
-import "./chp05/exam01/Comment.css"
-import BookList from "./chp05/exam02/BookList";
-import "./chp05/exam02/BookList.css"
-import CommentList from "./chp05/CommentList";
-import "./chp05/Comment.css";
-import NotificationList from "./chp06/NotificationList";
-import "./chp06/Notification.css"
-import Counter from "./chp07/exam01/Counter";
-import Accomodate from "./chp07/Accomodate";
-import Toggle from "./chp08/Toggle";
-import Toggle_2 from "./chp08/Toggle_2";
-import Toggle_3_NewSyntax from "./chp08/Toggle_3_NewSyntax";
-import ToggleFunction from "./chp08/ToggleFunction";
-import MyButton_Argument from "./chp08/MyButton_Argument";
-import MyButton from "./chp08/MyButton";
-import ConfirmButtonFunction from "./chp08/ConfirmButtonFunction";
+import AppNumberList from "./chp10/ex1/AppNumberList";
+import StudentAttendance from "./chp10/ex2/StudentAttendance";
+import AttendanceCard from "./chp10/ex3/AttendanceCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -41,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <ConfirmButtonFunction />
+             <AttendanceCard />
          </React.StrictMode>
      );
 
