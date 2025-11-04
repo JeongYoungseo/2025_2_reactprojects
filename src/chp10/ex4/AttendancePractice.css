@@ -1,9 +1,7 @@
-.alcohol-attendance-container{
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #fafafa;
-    min-height: 100vh;
-    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+.alcoholCard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .alcohol-attendance-title{
     font-size: 2rem;
