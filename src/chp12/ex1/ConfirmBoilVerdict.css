@@ -1,0 +1,80 @@
+/* 전체 박스 */
+.boil-box {
+    width: 340px;
+    margin: 80px auto;
+    padding: 30px;
+    background: linear-gradient(180deg, #ffe4e1, #ffccbc); /* 부드러운 붉은 톤 그라데이션 */
+    border: 3px solid #e57373; /* 선명한 연분홍-레드 테두리 */
+    border-radius: 14px;
+    box-shadow: 0 8px 16px rgba(239, 83, 80, 0.3);
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    transition: all 0.2s ease;
+}
+
+/* 제목 (legend) */
+.boil-box legend {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #b71c1c; /* 진한 레드 */
+    text-shadow: 0 1px 2px rgba(183, 28, 28, 0.2);
+    background-color: #fff0f0;
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid #ffcdd2;
+}
+
+/* 입력창 */
+.boil-box input {
+    width: 85%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #f8bbd0; /* 옅은 핑크 테두리 */
+    background-color: #ffffff;
+    color: #880e4f;
+    font-size: 1.05rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(240, 98, 146, 0.3);
+}
+
+.boil-box input:focus {
+    outline: none;
+    border-color: #e53935; /* 포커스 시 진한 붉은색 */
+    box-shadow: 0 0 8px rgba(229, 57, 53, 0.6);
+    transform: scale(1.03);
+}
+
+/* 결과 문구 (BoilVerdict <p>) */
+.boil-box p {
+    margin-top: 10px;
+    font-size: 1.15rem;
+    font-weight: 800;
+    text-align: center;
+    color: #c62828; /* 🔥 진한 레드 글자 */
+    background-color: #fff;
+    border: 2px solid #ef9a9a;
+    border-radius: 10px;
+    padding: 14px 20px;
+    width: 85%;
+    box-shadow: 0 4px 10px rgba(229, 57, 53, 0.3);
+    letter-spacing: 1px;
+    animation: fadeIn 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.boil-box p:hover {
+    transform: scale(1.05);
+    color: #b71c1c; /* hover 시 더 진하게 */
+}
+
+/* 부드러운 등장 애니메이션 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+

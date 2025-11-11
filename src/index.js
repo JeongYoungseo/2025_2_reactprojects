@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AppNumberList from "./chp10/ex1/AppNumberList";
-import StudentAttendance from "./chp10/ex2/StudentAttendance";
-import AttendanceCard from "./chp10/ex3/AttendanceCard";
-import AttendancePractice from "./chp10/ex4/AttendancePractice";
-import NamesForm from "./chp11/ex1/NamesForm";
-//import './chp11/ex1/NamesForm.css'
-import Fruit from "./chp11/ex2/Fruit";
-import './chp11/ex2/Fruit.css';
+import BoilVerdict from "./chp12/ex1/BoilVerdict";
+import ConfirmBoilVerdict from "./chp12/ex1/ConfirmBoilVerdict";
+import "./chp12/ex1/ConfirmBoilVerdict.css";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <Fruit />
+             <ConfirmBoilVerdict/>
          </React.StrictMode>
      );
 
