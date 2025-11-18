@@ -1,0 +1,62 @@
+/* 전체 컨테이너 박스 */
+.converter-container {
+    width: 360px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* 제목 */
+.converter-container h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 입력 박스 정렬 */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* DistanceInput 각각의 박스 */
+.input-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* 라벨 텍스트 */
+.input-box legend {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* 텍스트 입력 */
+.input-box input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* 하단 결과 텍스트 */
+.result-text {
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+}

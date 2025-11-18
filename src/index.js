@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BoilVerdict from "./chp12/ex1/BoilVerdict";
-import ConfirmBoilVerdict from "./chp12/ex1/ConfirmBoilVerdict";
-import "./chp12/ex1/ConfirmBoilVerdict.css";
+import DistanceConverter from "./chp12/ex2/ex2_1/DistanceConverter";
+import './chp12/ex2/ex2_1/DistanceConverter.css';
+
 
 
 
@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <ConfirmBoilVerdict/>
+             <DistanceConverter/>
          </React.StrictMode>
      );
 
