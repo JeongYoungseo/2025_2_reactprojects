@@ -1,0 +1,32 @@
+
+/* 최상위 FancyBorder 스타일 */
+.fancy-border {
+    border: 3px solid skyblue;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    background: #f0faff;   /* 연한 스카이블루 배경 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Dialog 제목 */
+.dialog-title {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #0284c7; /* 진한 파랑 */
+}
+
+/* Dialog 메시지 */
+.dialog-message {
+    margin: 0 0 15px 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Dialog 기본 텍스트 정렬 */
+.fancy-border h1,
+.fancy-border p {
+    text-align: center;
+}

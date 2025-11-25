@@ -1,0 +1,84 @@
+/* 🔵 기본(안 끓음) 상태 */
+.calculator-box.cold {
+    max-width: 360px;
+    margin: 40px auto;
+    padding: 24px 20px;
+    border-radius: 12px;
+    background: #eef6ff; /* 연한 파랑 */
+    border: 1px solid #bfdbfe;
+    box-shadow: 0px 4px 18px rgba(59,130,246,0.15);
+    transition: 0.3s ease;
+}
+
+/* 🔥 끓는(100도 이상) 상태 */
+.calculator-box.hot {
+    max-width: 360px;
+    margin: 40px auto;
+    padding: 24px 20px;
+    border-radius: 12px;
+    background: #ffecec; /* 연한 빨강 */
+    border: 1px solid #fca5a5;
+    box-shadow: 0px 4px 18px rgba(239,68,68,0.25);
+    transition: 0.3s ease;
+}
+
+/* 제목 */
+.calculator-title {
+    margin: 0 0 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #1e3a8a; /* 차분한 진한 파랑 */
+}
+
+.calculator-box.hot .calculator-title {
+    color: #b91c1c; /* 진한 붉은색 */
+}
+
+/* 입력창들 */
+.calculator-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+
+}
+
+.calculator-box input {
+    width: 200px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    font-size: 14px;
+    transition: 0.2s;
+
+}
+
+.calculator-box input:focus {
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.2);
+    border-color: #3b82f6;
+}
+
+.calculator-box.hot input:focus {
+    box-shadow: 0 0 0 3px rgba(239,68,68,0.2);
+    border-color: #ef4444;
+}
+
+/* 결과 텍스트 */
+.calculator-result {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px dashed #e5e7eb;
+}
+
+.calculator-result p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d4ed8; /* 기본 파랑 */
+}
+
+.calculator-box.hot .calculator-result p {
+    color: #dc2626; /* 붉은색 */
+}
