@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Dialogs from "./chp13/ex1/Dialogs";
-import './chp13/ex1/Dialog.css';
+import Blocks from "./chp15/Blocks";
+// import PageController from "./web/PageController";
+// import './web/style.css';
+
+
 
 
 
@@ -23,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
         <React.StrictMode>
-             <Dialogs/>
+             <Blocks/>
          </React.StrictMode>
      );
 
