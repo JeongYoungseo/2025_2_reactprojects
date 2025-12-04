@@ -1,0 +1,243 @@
+/* ---------- 기본 설정 ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ---------- 헤더 ---------- */
+header {
+    background-color: white;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 160px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- 오른쪽 아이콘 메뉴 ---------- */
+.right-menu {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.right-menu img {
+    vertical-align: middle;
+}
+
+/* ---------- 네비게이션 메뉴 ---------- */
+nav {
+    background-color: bisque;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #555;
+}
+
+/* 드롭다운 메뉴 */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    background: #444;
+    min-width: 160px;
+    flex-direction: column;
+    z-index: 1;
+}
+
+nav ul li:hover ul {
+    display: flex;
+}
+
+/* 메인페이지 상단 상품 */
+.top-banner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.top-banner img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* ------ 메인페이지 상품 정렬 ------ */
+.section-title {
+    margin: 30px 0 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+/* ---------- 회원가입 페이지 메인 레이아웃 ---------- */
+main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.singup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ---------- 회원가입 박스 ---------- */
+.signup-box {
+    width: 100%;
+    max-width: 900px;
+    min-height: 900px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* 입력폼 */
+.signup-box label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="password"],
+.signup-box input[type="number"],
+.signup-box input[type="email"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/* 제출 버튼 */
+.signup-box input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    background-color: #ddd;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+/* 아래 로그인 링크 */
+.signup-box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ---------- 푸터 ---------- */
+footer {
+    background: whitesmoke;
+    padding: 20px;
+    margin-top: 450px;
+    text-align: center;
+}
+
+/* ---------- 반응형 ---------- */
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 14px;
+    }
+    .logo {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    body {
+        font-size: 16px;
+    }
+    .logo {
+        width: 160px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 18px;
+    }
+    .logo {
+        width: 200px;
+        height: 120px;
+    }
+    h2 {
+        font-size: 24px;
+        margin: auto;
+    }
+}
+
